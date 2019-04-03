@@ -1,0 +1,56 @@
+Dlogs: 04-03 15:37:58.159 D/AndroidRuntime( 8427): Calling main entry com.android.commands.monkey.Monkey
+Dlogs: 04-03 15:37:58.161 W/Monkey  ( 8427): args: [-p, tv.airtel.smartstick, -c, android.intent.category.HOME, --ignore-crashes, --ignore-native-crashes, --ignore-timeouts, -v, --throttle, 500, 50]
+Dlogs: 04-03 15:37:58.162 W/Monkey  ( 8427):  arg: "-p"
+Dlogs: 04-03 15:37:58.163 W/Monkey  ( 8427):  arg: "tv.airtel.smartstick"
+Dlogs: 04-03 15:37:58.163 W/Monkey  ( 8427):  arg: "-c"
+Dlogs: 04-03 15:37:58.163 W/Monkey  ( 8427):  arg: "android.intent.category.HOME"
+Dlogs: 04-03 15:37:58.163 W/Monkey  ( 8427):  arg: "--ignore-crashes"
+Dlogs: 04-03 15:37:58.164 W/Monkey  ( 8427):  arg: "--ignore-native-crashes"
+Dlogs: 04-03 15:37:58.164 W/Monkey  ( 8427):  arg: "--ignore-timeouts"
+Dlogs: 04-03 15:37:58.164 W/Monkey  ( 8427):  arg: "-v"
+Dlogs: 04-03 15:37:58.164 W/Monkey  ( 8427):  arg: "--throttle"
+Dlogs: 04-03 15:37:58.164 W/Monkey  ( 8427):  arg: "500"
+Dlogs: 04-03 15:37:58.165 W/Monkey  ( 8427):  arg: "50"
+Dlogs: 04-03 15:37:58.165 W/Monkey  ( 8427): data="tv.airtel.smartstick"
+Dlogs: 04-03 15:37:58.166 W/Monkey  ( 8427): data="android.intent.category.HOME"
+Dlogs: 04-03 15:37:58.166 W/Monkey  ( 8427): arg="--ignore-crashes" mCurArgData="null" mNextArg=5 argwas="--ignore-crashes" nextarg="--ignore-native-crashes"
+Dlogs: 04-03 15:37:58.166 W/Monkey  ( 8427): arg="--ignore-native-crashes" mCurArgData="null" mNextArg=6 argwas="--ignore-native-crashes" nextarg="--ignore-timeouts"
+Dlogs: 04-03 15:37:58.167 W/Monkey  ( 8427): arg="--ignore-timeouts" mCurArgData="null" mNextArg=7 argwas="--ignore-timeouts" nextarg="-v"
+Dlogs: 04-03 15:37:58.167 W/Monkey  ( 8427): arg="--throttle" mCurArgData="null" mNextArg=9 argwas="--throttle" nextarg="500"
+Dlogs: 04-03 15:37:58.168 W/Monkey  ( 8427): data="500"
+Dlogs: 04-03 15:37:58.211 I/Monkey  ( 8427): :Monkey: seed=1554396393660 count=50
+Dlogs: 04-03 15:37:58.211 I/Monkey  ( 8427): :AllowPackage: tv.airtel.smartstick
+Dlogs: 04-03 15:37:58.212 I/Monkey  ( 8427): :IncludeCategory: android.intent.category.HOME
+Dlogs: 04-03 15:37:58.224 I/Monkey  ( 8427): // Event percentages:
+Dlogs: 04-03 15:37:58.224 I/Monkey  ( 8427): //   0: 15.0%
+Dlogs: 04-03 15:37:58.225 I/Monkey  ( 8427): //   1: 10.0%
+Dlogs: 04-03 15:37:58.225 I/Monkey  ( 8427): //   2: 2.0%
+Dlogs: 04-03 15:37:58.225 I/Monkey  ( 8427): //   3: 15.0%
+Dlogs: 04-03 15:37:58.225 I/Monkey  ( 8427): //   4: -0.0%
+Dlogs: 04-03 15:37:58.225 I/Monkey  ( 8427): //   5: -0.0%
+Dlogs: 04-03 15:37:58.225 I/Monkey  ( 8427): //   6: 25.0%
+Dlogs: 04-03 15:37:58.226 I/Monkey  ( 8427): //   7: 15.0%
+Dlogs: 04-03 15:37:58.226 I/Monkey  ( 8427): //   8: 2.0%
+Dlogs: 04-03 15:37:58.226 I/Monkey  ( 8427): //   9: 2.0%
+Dlogs: 04-03 15:37:58.226 I/Monkey  ( 8427): //   10: 1.0%
+Dlogs: 04-03 15:37:58.226 I/Monkey  ( 8427): //   11: 13.0%
+Dlogs: 04-03 15:37:58.227 I/Monkey  ( 8427): :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=tv.airtel.smartstick/.MainActivityHomeAlias;end
+Dlogs: 04-03 15:37:58.230 I/Monkey  ( 8427):     // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=tv.airtel.smartstick/.MainActivityHomeAlias } in package tv.airtel.smartstick
+Dlogs: 04-03 15:37:58.743 I/Monkey  ( 8427): :Sending Touch (ACTION_DOWN): 0:(723.0,408.0)
+Dlogs: 04-03 15:37:58.753 I/Monkey  ( 8427): :Sending Touch (ACTION_UP): 0:(690.4484,398.60233)
+Dlogs: 04-03 15:37:59.259 I/Monkey  ( 8427): :Sending Touch (ACTION_DOWN): 0:(258.0,92.0)
+Dlogs: 04-03 15:37:59.266 I/Monkey  ( 8427): :Sending Touch (ACTION_UP): 0:(255.64148,104.39684)
+Dlogs: 04-03 15:38:00.779 I/Monkey  ( 8427): :Sending Touch (ACTION_DOWN): 0:(1147.0,895.0)
+Dlogs: 04-03 15:38:00.788 I/Monkey  ( 8427): :Sending Touch (ACTION_UP): 0:(1196.4725,1012.44617)
+Dlogs: 04-03 15:38:01.291 I/Monkey  ( 8427): :Sending Touch (ACTION_DOWN): 0:(35.0,533.0)
+Dlogs: 04-03 15:38:01.292 I/Monkey  ( 8427): :Sending Touch (ACTION_UP): 0:(37.59736,544.61237)
+Dlogs: 04-03 15:38:02.804 I/Monkey  ( 8427): :Sending Touch (ACTION_DOWN): 0:(114.0,648.0)
+Dlogs: 04-03 15:38:02.805 I/Monkey  ( 8427): :Sending Touch (ACTION_UP): 0:(118.03526,645.92706)
+Dlogs: 04-03 15:38:03.813 I/Monkey  ( 8427): :Sending Touch (ACTION_DOWN): 0:(887.0,554.0)
+Dlogs: 04-03 15:38:03.815 I/Monkey  ( 8427): :Sending Touch (ACTION_UP): 0:(886.40796,563.2985)
+Dlogs: 04-03 15:38:05.327 I/Monkey  ( 8427): :Sending Touch (ACTION_DOWN): 0:(1110.0,305.0)
+Dlogs: 04-03 15:38:05.336 I/Monkey  ( 8427): :Sending Touch (ACTION_UP): 0:(1062.7673,369.48834)
+Dlogs: 04-03 15:38:05.841 I/Monkey  ( 8427): Events injected: 50
+Dlogs: 04-03 15:38:05.841 I/Monkey  ( 8427): :Sending rotation degree=0, persist=false
+Dlogs: 04-03 15:38:05.852 I/Monkey  ( 8427): :Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+Dlogs: 04-03 15:38:05.852 I/Monkey  ( 8427): ## Network stats: elapsed time=7622ms (0ms mobile, 0ms wifi, 7622ms not connected)

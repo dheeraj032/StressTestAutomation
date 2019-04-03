@@ -1,0 +1,48 @@
+  bash arg: -p
+  bash arg: tv.airtel.smartstick
+  bash arg: -c
+  bash arg: android.intent.category.HOME
+  bash arg: --ignore-crashes
+  bash arg: --ignore-native-crashes
+  bash arg: --ignore-timeouts
+  bash arg: -v
+  bash arg: --throttle
+  bash arg: 500
+  bash arg: 50
+:Monkey: seed=1554396393660 count=50
+:AllowPackage: tv.airtel.smartstick
+:IncludeCategory: android.intent.category.HOME
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=tv.airtel.smartstick/.MainActivityHomeAlias;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=tv.airtel.smartstick/.MainActivityHomeAlias } in package tv.airtel.smartstick
+:Sending Touch (ACTION_DOWN): 0:(723.0,408.0)
+:Sending Touch (ACTION_UP): 0:(690.4484,398.60233)
+:Sending Touch (ACTION_DOWN): 0:(258.0,92.0)
+:Sending Touch (ACTION_UP): 0:(255.64148,104.39684)
+:Sending Touch (ACTION_DOWN): 0:(1147.0,895.0)
+:Sending Touch (ACTION_UP): 0:(1196.4725,1012.44617)
+:Sending Touch (ACTION_DOWN): 0:(35.0,533.0)
+:Sending Touch (ACTION_UP): 0:(37.59736,544.61237)
+:Sending Touch (ACTION_DOWN): 0:(114.0,648.0)
+:Sending Touch (ACTION_UP): 0:(118.03526,645.92706)
+:Sending Touch (ACTION_DOWN): 0:(887.0,554.0)
+:Sending Touch (ACTION_UP): 0:(886.40796,563.2985)
+:Sending Touch (ACTION_DOWN): 0:(1110.0,305.0)
+:Sending Touch (ACTION_UP): 0:(1062.7673,369.48834)
+Events injected: 50
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=7622ms (0ms mobile, 0ms wifi, 7622ms not connected)
+// Monkey finished
