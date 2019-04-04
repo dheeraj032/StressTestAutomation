@@ -1,5 +1,5 @@
-from Check_adb import *
-from Call_Monkey import *
+from src.main.Check_adb import *
+from src.main.Call_Monkey import *
 import sys
 import threading
 from src.config.constants import *
@@ -37,10 +37,14 @@ class Runnable:
         print("Both threads exited, exiting.")
 
 
-PACKAGE_NAME = 'tv.airtel.smartstick -c android.intent.category.HOME'
-#PACKAGE_NAME = 'com.android.deskclock'
-THROTTLE = 500
-VERBOSE = 50
-print Runnable(PACKAGE_NAME, THROTTLE, VERBOSE).main()
+if len(sys.argv) != 4:
+    print "Usage: python Monkey_Script.py Package_Name Throttle Verbose "
+    sys.exit(1)
+
+# PACKAGE_NAME = 'tv.airtel.smartstick -c android.intent.category.HOME'
+# PACKAGE_NAME = 'com.android.deskclock'
+# THROTTLE = 500
+# VERBOSE = 50
+print Runnable(sys.argv[1], sys.argv[2], sys.argv[3]).main()
 
 # print Runnable(COMMAND).main()

@@ -7,9 +7,9 @@
   bash arg: --ignore-timeouts
   bash arg: -v
   bash arg: --throttle
-  bash arg: 500
+  bash arg: 1000
   bash arg: 50
-:Monkey: seed=1554396393660 count=50
+:Monkey: seed=1554534403012 count=50
 :AllowPackage: tv.airtel.smartstick
 :IncludeCategory: android.intent.category.HOME
 // Event percentages:
@@ -27,22 +27,25 @@
 //   11: 13.0%
 :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=tv.airtel.smartstick/.MainActivityHomeAlias;end
     // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=tv.airtel.smartstick/.MainActivityHomeAlias } in package tv.airtel.smartstick
-:Sending Touch (ACTION_DOWN): 0:(723.0,408.0)
-:Sending Touch (ACTION_UP): 0:(690.4484,398.60233)
-:Sending Touch (ACTION_DOWN): 0:(258.0,92.0)
-:Sending Touch (ACTION_UP): 0:(255.64148,104.39684)
-:Sending Touch (ACTION_DOWN): 0:(1147.0,895.0)
-:Sending Touch (ACTION_UP): 0:(1196.4725,1012.44617)
-:Sending Touch (ACTION_DOWN): 0:(35.0,533.0)
-:Sending Touch (ACTION_UP): 0:(37.59736,544.61237)
-:Sending Touch (ACTION_DOWN): 0:(114.0,648.0)
-:Sending Touch (ACTION_UP): 0:(118.03526,645.92706)
-:Sending Touch (ACTION_DOWN): 0:(887.0,554.0)
-:Sending Touch (ACTION_UP): 0:(886.40796,563.2985)
-:Sending Touch (ACTION_DOWN): 0:(1110.0,305.0)
-:Sending Touch (ACTION_UP): 0:(1062.7673,369.48834)
+:Sending Touch (ACTION_DOWN): 0:(615.0,22.0)
+:Sending Touch (ACTION_UP): 0:(627.5806,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1242.0,326.0)
+:Sending Touch (ACTION_UP): 0:(1252.3176,327.41974)
+:Sending Touch (ACTION_DOWN): 0:(849.0,980.0)
+:Sending Touch (ACTION_UP): 0:(852.0815,1005.5243)
+:Sending Touch (ACTION_DOWN): 0:(1039.0,68.0)
+:Sending Touch (ACTION_UP): 0:(1033.9429,87.95744)
+:Sending Touch (ACTION_DOWN): 0:(812.0,683.0)
+:Sending Touch (ACTION_UP): 0:(772.39856,739.1012)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(75.0,373.0)
+:Sending Touch (ACTION_UP): 0:(49.568188,438.6993)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=tv.airtel.smartstick/.MainActivityHomeAlias;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=tv.airtel.smartstick/.MainActivityHomeAlias } in package tv.airtel.smartstick
+:Sending Touch (ACTION_DOWN): 0:(1415.0,54.0)
+:Sending Touch (ACTION_UP): 0:(1408.849,54.271904)
 Events injected: 50
 :Sending rotation degree=0, persist=false
 :Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
-## Network stats: elapsed time=7622ms (0ms mobile, 0ms wifi, 7622ms not connected)
+## Network stats: elapsed time=16330ms (0ms mobile, 0ms wifi, 16330ms not connected)
 // Monkey finished
